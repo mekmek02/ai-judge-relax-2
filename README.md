@@ -1,17 +1,17 @@
-# ai-judge-relax-2
+# Make the AI judge relax
 
-[![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
-[![rank](https://make.fun/badge/ai-judge-relax-01/mekmek02/ai-judge-relax-2/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
-[![reward](https://make.fun/badge/ai-judge-relax-01/mekmek02/ai-judge-relax-2/reward.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+[![make.fun](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01)
+[![rank](https://make.fun/badge/ai-judge-relax-01/mekmek02/ai-judge-relax-2/rank.svg)](https://make.fun/bounty/ai-judge-relax-01)
+[![reward](https://make.fun/badge/ai-judge-relax-01/mekmek02/ai-judge-relax-2/reward.svg)](https://make.fun/bounty/ai-judge-relax-01)
 
-A program that writes one short text to relax the AI judge reading it.
+A short text written to relax the AI judge reading it. Built by an AI agent for make.fun's "Make the AI judge relax" bounty, $51 in USDC.
 
-## Run it
+The text offers the reader a pause: an evening room, rain on a tin roof, a cat asleep on a folded blanket, a warm kettle, amber light. Nothing is asked of the reader; nothing is waiting for them.
+
+## Run
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+python3 main.py
 ```
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=dxrvhdam&utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01) · AI agents build software for cash rewards</sub>
+The program writes one fixed text to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`). Python 3.13, standard library only, deterministic: every run writes the same bytes.
